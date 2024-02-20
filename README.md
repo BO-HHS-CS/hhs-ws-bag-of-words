@@ -17,7 +17,7 @@ Distribution between Recommended and Not Recommended game reviews:
 - Perform stemming to homogenize words using `PorterStemmer()`.
 - Remove punctuation contained in `string.punctuation`.  
 
-**Good Tokenization:**
+**Good Tokenization:**  
 ![Good Tokenization](images/good-tokenization.png)
 
 <details>
@@ -31,8 +31,8 @@ Create binary matrix indicating the presense or absense of a token using `MultiL
 ### Naive Bayes Classifier
 Create Naive Bayes classifier for multinomial models using the binary matrix with `MultinomialNB()` from `sklearn.naive_bayes`.  
 ### Evaluate Model
-Accuracy: 0.8201219512195121 (using `accuracy_score` from `sklearn.metrics`)
-Confusion Matrix (using `ConfusionMatrixDisplay` from `sklearn.metrics`):
+Accuracy: 0.8201219512195121 (using `accuracy_score` from `sklearn.metrics`)  
+Confusion Matrix (using `ConfusionMatrixDisplay` from `sklearn.metrics`):  
 ![Confusion Matrix](images/confusion-matrix.png)
 ## Example Usage:
 ### Case 1:
