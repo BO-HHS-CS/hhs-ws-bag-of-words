@@ -27,7 +27,7 @@ Distribution between Recommended and Not Recommended game reviews:
 </details>
 
 ### MultiLabelBinarizer
-Create binary matrix indicating the presense or absense of a token using `MultiLabelBinarizer` from `sklearn.preprocessing`.  
+Create a binary matrix indicating the presence or absence of a token using `MultiLabelBinarizer` from `sklearn.preprocessing`.  
 ### Naive Bayes Classifier
 Create Naive Bayes classifier for multinomial models using the binary matrix with `MultinomialNB()` from `sklearn.naive_bayes`.  
 ### Evaluate Model
